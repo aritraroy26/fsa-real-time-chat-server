@@ -1,5 +1,5 @@
 {
-  "name": "fsa-back-end-template",
+  "name": "fsa-real-time-chat-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -18,6 +18,8 @@
   },
   "dependencies": {
     "express": "4.17.1",
-    "mongodb": "4.1.0"
+    "firebase-admin": "^11.0.1",
+    "mongodb": "4.1.0",
+    "socket.io": "^4.5.1"
   }
 }
